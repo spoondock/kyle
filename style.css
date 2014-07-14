@@ -3,6 +3,20 @@ html, body{
 	font-family: 'Lato', sans-serif;
 }
 
+a:link
+{
+    color:#FFFFFF;
+}
+
+a:visited
+{
+    color:#FFFFFF;
+}
+
+a:hover 
+{
+    color:#FFFFFF;
+}
 #header{
 	background-image: url(example.1.jpg);
 	padding: 100px 0 250px;
