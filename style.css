@@ -7,6 +7,10 @@ html, body{
 	background-image: url(example.1.jpg);
 	padding: 100px 0 250px;
 	color: #fff;
+	a:link{text-decoration: none;}
+	a:visited{text-decoration: none;}
+	a:hover{text-decoration: none;}
+	a:active{text-decoration: none;}
 }
 
 .cover{
