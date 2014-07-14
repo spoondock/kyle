@@ -30,10 +30,7 @@ ul li{
 }
 
 #header-menu ul li{
-		a:link{text-decoration: none;}
-	a:visited{text-decoration: none;}
-	a:hover{text-decoration: none;}
-	a:active{text-decoration: none;}
+	
 }
 	display: inline;
 	padding: 5px 10px;
