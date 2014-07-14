@@ -1,0 +1,126 @@
+Basic HTML Markup
+=================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Page Title!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="name-first-section-here">1st Section!</div>
+
+</body>
+</html>
+
+
+=================
+Basic HTML Tags:
+
+<!DOCTYPE html>
+<html lang="en"></html>
+<head></head>
+<title></title>
+<style></style>
+<meta name="" content="">
+<link rel="stylesheet" href="">
+<body></body>
+<div></div>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+<ul></ul>
+<li></li>
+<a href=""></a>
+<img src="">
+<br>
+<p></p>
+<span></span>
+<form></form>
+<textarea></textarea>
+<input>
+<button></button>
+<script src=""></script>
+<!-- comment -->
+
+=================
+3 Ways of Including CSS:
+
+1. -- Linked (recommended) 
+Example (In <link> tag in HTML <head> section):
+
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+2. -- Embedded
+Example (In between <style></style> tags in HTML <head> section):
+
+<head>
+<style>
+
+#section-1-title{
+	font-size: 34px;
+	color: #fff;
+}
+
+</style>
+</head>
+
+
+3. -- Inline
+Example (As a style attribute, inside of an HTML element's opening tag):
+
+<div id='section-1' style='background-color: #ddf522; width: 100%;'></div>
+
+
+
+=================
+CSS Cascading Rules:
+1. an id will always override a class
+2. inline css will always override embedded or linked css
+3. embedded and linked css will override css that is above it in an html file
+4. when there are multiple identical selectors in a css file then the lowest style will override styles above, unless that style is within a media query that doesn't apply to the current device.
+5. more specific selectors for an element will override less specific selectors even if they are higher in the file.
+
+
+=================
+Helpful Links:
+
+HTML/CSS Tutorials:
+http://www.w3schools.com/
+
+CSS Colors: 
+http://www.december.com/html/spec/color.html
+
+favicon generator: 
+http://www.favikon.com/
+
+ascii characters: 
+http://www.yellowpipe.com/yis/tools/ASCII-HTML-Characters/
+
+CSS Icons: 
+http://fontawesome.io/icons
+
+CSS Icons:
+http://octicons.github.com/
+
+Subtle Pattern Background Images:
+http://subtlepatterns.com/thumbnail-view/
+
+CSS Vendor Prefix Generator:
+http://prefixmycss.com/
+
+Free Web Fonts:
+http://google.com/fonts
+
+Save & Share HTML/CSS/JS examples:
+http://jsfiddle.net/
+
+
+
